@@ -1,0 +1,51 @@
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+.price{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.add-to-cart{
+  background: black;
+  border: 2px solid black;
+  color: white !important;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none !important;
+  -webkit-transition: .3s;
+  transition: .3s;
+  &:hover{
+    background: white;
+    color: black !important;
+  }
+}
+
+.total{
+  .final-price{
+    margin-left: 5px;
+  }
+}
+
+
+// Stripe
+.StripeElement {
+  background-color: white;
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
